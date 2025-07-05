@@ -1,2 +1,1 @@
-// Helper functions
-module.exports = {};
+exports.randomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
