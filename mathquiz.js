@@ -1,1 +1,1 @@
-// mathquiz.js plugin content
+const handler = async (m, { conn }) => { const num1 = Math.floor(Math.random() * 50) const num2 = Math.floor(Math.random() * 50) const op = ['+', '-', '*'][Math.floor(Math.random() * 3)] const answer = eval(${num1}${op}${num2}) conn.reply(m.chat, Solve: *${num1} ${op} ${num2}*, m) conn.mathQuiz = conn.mathQuiz || {} conn.mathQuiz[m.chat] = answer } handler.help = ['mathquiz'] handler.tags = ['game'] handler.command = /^mathquiz$/i export default handler
