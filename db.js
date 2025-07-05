@@ -6,16 +6,17 @@ async function loadDB() {
 
   const adapter = new JSONFile('./db.json');
   db = new Low(adapter);
+
   await db.read();
 
-  // FIX: Prevent "missing default data" error
+  // 🛡️ Final fix: provide default data if missing
   if (!db.data) {
     db.data = {
       users: [],
       sudo: [],
-      autosend: ''
+      autosend: ""
     };
-    await db.write(); // Save the default structure
+    await db.write(); // Save initialized structure
   }
 
   return db;
