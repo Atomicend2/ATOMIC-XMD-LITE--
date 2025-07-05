@@ -1,25 +1,18 @@
 {
   "name": "atomic-xmd-lite",
   "version": "1.0.0",
-  "description": "A powerful lightweight WhatsApp MD bot",
+  "description": "ATOMIC-XMD-LITE WhatsApp Bot",
   "main": "index.js",
-  "type": "commonjs"
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
-    "@hapi/boom": "^9.1.4",
-    "lowdb": "^3.0.0",
-    "pino": "^8.17.0",
-    "axios": "^1.6.8"
-  },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "xmd",
-    "atomic"
-  ],
-  "author": "Atomicend2",
-  "license": "MIT"
+    "@hapi/boom": "^11.1.4",
+    "axios": "^1.6.7",
+    "lowdb": "^6.0.1",
+    "pino": "^8.14.2",
+    "dotenv": "^16.3.1"
+  }
 }
