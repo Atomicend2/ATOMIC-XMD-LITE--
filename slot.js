@@ -1,1 +1,1 @@
-// slot.js plugin content
+slot.js const slotItems = ['🍒', '🍋', '🍉', '🍇', '🍓'] const handler = async (m, { conn }) => { const a = slotItems[Math.floor(Math.random() * slotItems.length)] const b = slotItems[Math.floor(Math.random() * slotItems.length)] const c = slotItems[Math.floor(Math.random() * slotItems.length)] const result = a == b && b == c ? '🎉 Jackpot! You win!' : 'Try again!' conn.reply(m.chat, ${a} | ${b} | ${c}\n${result}, m) } handler.help = ['slot'] handler.tags = ['game'] handler.command = /^slot$/i export default handler
