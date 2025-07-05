@@ -1,13 +1,24 @@
 {
   "name": "atomic-xmd-lite",
   "version": "1.0.0",
+  "description": "A powerful multi-device WhatsApp bot - ATOMIC-XMD-LITE",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
+    "@hapi/boom": "^10.0.1",
     "axios": "^1.6.0",
-    "lowdb": "^6.0.1"
-  }
+    "lowdb": "^3.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "atomic-xmd",
+    "multi-device"
+  ],
+  "author": "Atomicend2",
+  "license": "MIT"
 }
