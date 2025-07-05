@@ -1,0 +1,1 @@
+// 2048.js plugin content

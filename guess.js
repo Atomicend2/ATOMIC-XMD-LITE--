@@ -1,0 +1,1 @@
+// guess.js plugin content

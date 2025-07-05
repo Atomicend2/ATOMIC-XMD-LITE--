@@ -1,0 +1,1 @@
+// mathquiz.js plugin content

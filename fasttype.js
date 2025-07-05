@@ -1,0 +1,1 @@
+// fasttype.js plugin content

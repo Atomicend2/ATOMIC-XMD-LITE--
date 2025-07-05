@@ -1,0 +1,1 @@
+// riddle.js plugin content

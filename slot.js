@@ -1,0 +1,1 @@
+// slot.js plugin content

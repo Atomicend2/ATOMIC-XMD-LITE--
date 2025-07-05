@@ -1,0 +1,1 @@
+// promote.js plugin content
