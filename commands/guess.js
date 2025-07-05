@@ -1,0 +1,1 @@
+const handler = async (m, { conn }) => { const num = Math.floor(Math.random() * 10) + 1 conn.reply(m.chat, 'Guess a number between 1 and 10', m) conn.guessGame = conn.guessGame || {} conn.guessGame[m.chat] = num } handler.help = ['guess'] handler.tags = ['game'] handler.command = /^guess$/i export default handler
