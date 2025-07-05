@@ -1,1 +1,1 @@
-// riddle.js plugin content
+const riddles = [ { q: 'What has to be broken before you can use it?', a: 'egg' }, { q: 'What has a head, a tail, but no body?', a: 'coin' }, { q: 'What gets wetter the more it dries?', a: 'towel' }, ] const handler = async (m, { conn }) => { const r = riddles[Math.floor(Math.random() * riddles.length)] conn.reply(m.chat, Riddle: ${r.q}, m) conn.riddleGame = conn.riddleGame || {} conn.riddleGame[m.chat] = r.a.toLowerCase() } handler.help = ['riddle'] handler.tags = ['game'] handler.command = /^riddle$/i export default handler
