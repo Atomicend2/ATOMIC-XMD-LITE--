@@ -1,1 +1,1 @@
-// fasttype.js plugin content
+fasttype.js const words = ['elephant', 'transformation', 'technology', 'whatsapp', 'galaxy', 'wizard'] const handler = async (m, { conn }) => { const word = words[Math.floor(Math.random() * words.length)] conn.reply(m.chat, Fast! Type this word: *${word}*, m) conn.fastType = conn.fastType || {} conn.fastType[m.chat] = word.toLowerCase() } handler.help = ['fasttype'] handler.tags = ['game'] handler.command = /^fasttype$/i export default handler
