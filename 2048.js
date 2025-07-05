@@ -1,1 +1,1 @@
-2048.js const handler = async (m, { conn }) => { conn.sendMessage(m.chat, { text: 'Play 2048 here: https://play2048.co/' }, { quoted: m }) } handler.help = ['2048'] handler.tags = ['game'] handler.command = /^2048$/i export default handler
+const handler = async (m, { conn }) => { conn.sendMessage(m.chat, { text: 'Play 2048 here: https://play2048.co/' }, { quoted: m }) } handler.help = ['2048'] handler.tags = ['game'] handler.command = /^2048$/i export default handler
