@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A powerful lightweight WhatsApp MD bot",
   "main": "index.js",
+  "type": "commonjs"
   "scripts": {
     "start": "node index.js"
   },
